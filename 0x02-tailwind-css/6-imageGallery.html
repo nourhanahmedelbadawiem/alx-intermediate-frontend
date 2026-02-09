@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+  <link href="./src/output.css" rel="stylesheet">
+  <style>
+    @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body class="p-4">
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold">Responsive Image Gallery</h1>
+  </header>
+  <main class="gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 1</span>
+    </div>
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 2</span>
+    </div>
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 3</span>
+    </div>
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 4</span>
+    </div>
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 5</span>
+    </div>
+    <div class="bg-gray-200 p-4 aspect-square flex items-center justify-center">
+      <span class="text-gray-600">Gallery Image 6</span>
+    </div>
+  </main>
+</body>
+</html>
