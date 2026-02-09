@@ -1,0 +1,15 @@
+Installing Node.js (if needed):
+1. Check if Node.js is already installed by running: node --version
+2. If Node.js is not installed, download and install it from https://nodejs.org/
+   - Choose the LTS (Long Term Support) version
+   - Follow the installation wizard for your operating system
+   - Verify installation by running: node --version and npm --version
+
+Installing Sass using npm:
+1. Open your terminal or command prompt
+2. Navigate to your project directory
+3. Install Sass globally using: npm install -g sass
+   - This allows you to use Sass from any directory
+4. Alternatively, install Sass locally in your project: npm install sass --save-dev
+   - This installs Sass only for the current project
+5. Verify installation by running: sass --version
